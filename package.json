@@ -14,10 +14,10 @@
   "author": "Jamie Curnow",
   "license": "MIT",
   "dependencies": {
-    "ajv": "latest",
-    "async": "latest",
-    "body-parser": "latest",
-    "color": "latest",
+    "ajv": "^6.10.0",
+    "async": "^3.1.0",
+    "body-parser": "^1.1.19",
+    "color": "^3.1.2",
     "lpd8806-async": "github:bugsounet/LPD8806-node",
     "rpi-ws2801": "github:bugsounet/node-rpi-ws2801"
   },
