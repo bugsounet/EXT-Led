@@ -24,7 +24,7 @@ Clone the module and npm install:
 
 ```bash
 cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/MMM-PiLights.git
+git clone https://github.com/bugsounet/EXT-PiLights.git
 cd EXT-PiLights
 npm install
 ```
