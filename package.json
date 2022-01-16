@@ -11,7 +11,7 @@
   "scripts": {
     "postinstall": "node_modules/.bin/MagicMirror-rebuild -e ../../node_modules/electron"
   },
-  "author": "Jamie Curnow",
+  "author": "Jamie Curnow, @bugsounet",
   "license": "MIT",
   "dependencies": {
     "ajv": "^6.10.0",
