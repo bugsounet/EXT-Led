@@ -13,6 +13,18 @@ let ajv = require('ajv')({
     coerceTypes: true
 });
 
+/**
+ * ---------
+ * @todo
+ * -- catch error for rpi-ws2801 (see library)
+ * -- make @bugsounet load library (for no black screen)
+ * -- display when a library is not loaded // or error
+ * -- delete any self / this (i don't like this !)
+ * -- review spacing with 2 spaces inside of tab
+ * in resume: review entire code ! :)))
+ * --------
+ **/ 
+
 module.exports = NodeHelper.create({
 
     config:               {},
