@@ -1,4 +1,4 @@
-# MMM-PiLights
+# EXT-PiLights
 MagicMirror Module to control a led strip attached to a Raspberry Pi
 
 
@@ -24,8 +24,8 @@ Clone the module and npm install:
 
 ```bash
 cd ~/MagicMirror/modules
-git clone https://github.com/jc21/MMM-PiLights.git
-cd MMM-PiLights
+git clone https://github.com/bugsounet/MMM-PiLights.git
+cd EXT-PiLights
 npm install
 ```
 
@@ -34,7 +34,7 @@ Add the module config to `~/MagicMirror/config/config.js`
 ```javascript
 modules: [
     {
-        module: 'MMM-PiLights',
+        module: 'EXT-PiLights',
         config: {
             ledCount: 64,
             type: 'ws2801', // 'ws2801' or 'lpd8806'

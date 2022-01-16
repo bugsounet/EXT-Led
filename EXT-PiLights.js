@@ -1,6 +1,6 @@
 /* global Module */
 
-Module.register('MMM-PiLights',{
+Module.register('EXT-PiLights',{
 
     /**
      * Module config defaults

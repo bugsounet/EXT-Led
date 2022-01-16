@@ -1,6 +1,6 @@
 {
-  "name": "MMM-PiLights",
-  "version": "1.1.0",
+  "name": "EXT-PiLights",
+  "version": "0.0.1",
   "description": "Magic Mirror control of LED Strip",
   "keywords": [
     "magic mirror",
@@ -9,7 +9,7 @@
     "module"
   ],
   "scripts": {
-    "postinstall": "node_modules/.bin/electron-rebuild -e ../../node_modules/electron"
+    "postinstall": "node_modules/.bin/MagicMirror-rebuild -e ../../node_modules/electron"
   },
   "author": "Jamie Curnow",
   "license": "MIT",
@@ -18,10 +18,10 @@
     "async": "latest",
     "body-parser": "latest",
     "color": "latest",
-    "lpd8806-async": "github:Trekky12/LPD8806-node",
-    "rpi-ws2801": "github:Trekky12/node-rpi-ws2801"
+    "lpd8806-async": "github:bugsounet/LPD8806-node",
+    "rpi-ws2801": "github:bugsounet/node-rpi-ws2801"
   },
   "devDependencies": {
-    "electron-rebuild": "latest"
+    "magicmirror-rebuild": "^1.0.4"
   }
 }
