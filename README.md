@@ -1,4 +1,4 @@
-# EXT-PiLights
+# EXT-Led
 MagicMirror Module to control a led strip attached to a Raspberry Pi
 
 
@@ -24,8 +24,8 @@ Clone the module and npm install:
 
 ```bash
 cd ~/MagicMirror/modules
-git clone https://github.com/bugsounet/EXT-PiLights.git
-cd EXT-PiLights
+git clone https://github.com/bugsounet/EXT-Led
+cd EXT-Led
 npm install
 ```
 
@@ -34,7 +34,7 @@ Add the module config to `~/MagicMirror/config/config.js`
 ```javascript
 modules: [
     {
-        module: 'EXT-PiLights',
+        module: 'EXT-Led',
         config: {
             ledCount: 64,
             type: 'ws2801', // 'ws2801' or 'lpd8806'
@@ -101,9 +101,6 @@ what you'd use in your module:
 ```javascript
 this.sendNotification('PILIGHTS_SEQUENCE', 'blue_pulse');
 ```
-
-My other MagicMirror module is able to trigger light sequences with notifications:
-[MMM-IFTTT](https://github.com/jc21/MMM-IFTTT)
 
 ## Trigger from a endpoint
 
