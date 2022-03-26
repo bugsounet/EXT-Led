@@ -1,5 +1,5 @@
 {
-  "name": "EXT-PiLights",
+  "name": "EXT-Led",
   "version": "0.0.1",
   "description": "Magic Mirror control of LED Strip",
   "keywords": [
